@@ -37,10 +37,8 @@ a {
 }
 
 #header {
-  padding-top: 5px;
+  padding-top: 8px;
   height: 38px;
-  border-bottom: 1px solid;
-  
 }
 
 #header-content {
@@ -64,7 +62,8 @@ a {
 }
 
 .about {
-  color: #6E0C4B
+  color: #6E0C4B;
+  line-height: 25px;
 }
 
 .projects {

@@ -6,13 +6,13 @@ import Project from '../components/Project'
 export default function Home() {
   return (
     <div>
-      <Header/>
       <Heading as='h1' id="heading" sx={{
         textAlign: 'center'
       }}>Zoro</Heading>
       <Heading as='h4' sx={{ textAlign: 'center', marginTop: 2}}>
         Full Stack Developer - Software Engineer
       </Heading>
+      <Header/>
       <Heading className="about" as='h4' sx={{ textAlign: 'center', marginTop: 10}}>
         CTO, Co-Owner, Lead Developer, Maintainer.<br/>
         CTO & Co-Owner for Plexi Development.<br/>
