@@ -13,7 +13,7 @@ export default function Home() {
       <Heading as='h4' sx={{ textAlign: 'center', marginTop: 2}}>
         Full Stack Developer - Software Engineer
       </Heading>
-      <Heading className="about" as='h4' sx={{ textAlign: 'center', marginTop: 2}}>
+      <Heading className="about" as='h4' sx={{ textAlign: 'center', marginTop: 10}}>
         CTO, Co-Owner, Lead Developer, Maintainer.<br/>
         CTO & Co-Owner for Plexi Development.<br/>
         Lead Developer & Maintainer for Server Captcha Bot.
@@ -23,9 +23,9 @@ export default function Home() {
         textAlign: 'center'
       }}>Projects</Heading>
       <Container className="projects">
-        <Project title="Server Captcha Bot" description="Verification for your Discord Server done right." lore="Check it out!" url="https://github.com/captcha-bot"/>
-        <Project className="project-middle" title="Server Captcha Bot" description="Verification for your Discord Server done right." lore="Check it out!" url="https://github.com/captcha-bot"/>
-        <Project title="Server Captcha Bot" description="Verification for your Discord Server done right." lore="Check it out!" url="https://github.com/captcha-bot"/>
+        {/* <Project title="Server Captcha Bot" description="Verification for your Discord Server done right." lore="Check it out!" url="https://github.com/captcha-bot"/> */}
+        <Project className="project" title="Server Captcha Bot" description="Verification for your Discord Server done right." lore="Check it out!" url="https://github.com/captcha-bot"/>
+        {/* <Project title="Server Captcha Bot" description="Verification for your Discord Server done right." lore="Check it out!" url="https://github.com/captcha-bot"/> */}
       </Container>
       <Footer/>
     </div>
