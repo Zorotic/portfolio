@@ -1,7 +1,7 @@
 export default function Footer() {
 	return (
 		<div className="footer">
-				<a>&copy; Zoro - {new Date().getFullYear()}</a>
+				<a>&copy; 2020-{new Date().getFullYear()} - Zoro</a>
 		</div>
 	)
 }
