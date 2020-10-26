@@ -11,7 +11,7 @@ export default class Header extends Component {
 							Twitter
 					</NavLink>
 					<NavLink id="header-links"
-						href="https://github.com/ZoroSC" target="_blank" p={1}>
+						href="https://github.com/Zorotic" target="_blank" p={1}>
 							GitHub
 					</NavLink>
 				</div>
