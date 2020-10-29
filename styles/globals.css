@@ -55,6 +55,15 @@ a {
   
 }
 
+.about-links:hover,
+.about-links:focus,
+.about-links:active {
+  /* text-decoration: underline; */
+  text-shadow: 0 0 4px;
+  color: #921466
+  
+}
+
 #heading {
   margin-top: 60px;
   margin-bottom: 23px;
@@ -66,10 +75,10 @@ a {
   line-height: 25px;
 }
 
-.projects {
+.additional {
   /* width: 100pc; */
   display: flex;
-  padding-top: 40px;
+  padding-top: 15px;
   position: relative;
   justify-content: center;
   align-items: center;
@@ -81,7 +90,7 @@ a {
 }
 
 .project-middle {
-  display: flexbox;
+  display: grid;
   border-right: solid 2px #6E0C4B;
   border-left: solid 2px #6E0C4B;
   padding-right: 20px;
@@ -89,8 +98,8 @@ a {
   flex-wrap: wrap;
 }
 
-.project {
-  display: flexbox;
+.item {
+  display: grid;
   /* border: solid 2px #6E0C4B; */
   padding-right: 20px;
   padding-left: 10px;

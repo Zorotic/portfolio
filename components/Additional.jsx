@@ -7,10 +7,10 @@ import { Card, Text } from 'theme-ui';
 
 import { Component } from "react";
 
-export default class Project extends Component {
+export default class Additional extends Component {
 	render() {
 		return (
-			<Card className={this.props.className || "project"} sx={{ px: 2, py: 2}}>
+			<Card className={this.props.className || "item"} sx={{ px: 2, py: 2}}>
 				<Text className="project-title" sx={{
 					px: 2,
 					py: 1,
