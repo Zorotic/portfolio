@@ -1,8 +1,3 @@
-// px: 2,
-// py: 1,
-// textTransform: 'uppercase',
-// letterSpacing: '0.2em',
-
 import { Card, Text } from 'theme-ui';
 
 import { Component } from "react";

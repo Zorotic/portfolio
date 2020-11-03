@@ -13,7 +13,10 @@
     "next-on-netlify": "^2.4.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
+    "react-particles": "^0.0.3",
     "react-particles-js": "^3.4.0",
+    "react-tsparticles": "^1.18.10",
+    "styled-components": "^5.2.1",
     "theme-ui": "^0.3.1"
   }
 }
