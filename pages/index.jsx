@@ -19,7 +19,7 @@ export default function Home() {
 				<Header/>
 				<Heading className="about" as='h4' sx={{ textAlign: 'center', marginTop: 10, color: 0xD91895 }}>
 				Co-Owner, Lead Developer, Maintainer.<br/>
-				Co-Owner for <a className="about-links" href="https://plexidev.org/" target="_blank">Plexi Development.</a><br/>
+				Co-Owner of <a className="about-links" href="https://plexidev.org/" target="_blank">Plexi Development.</a><br/>
 				Lead Developer & Maintainer for <a className="about-links"href="https://captchabot.xyz/" target="_blank">Server Captcha Bot.</a>
 				</Heading>
 				<Heading id="projects-heading" as='h3' sx={{
