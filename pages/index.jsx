@@ -13,15 +13,15 @@ export default function Home() {
 				<Heading as='h1' id="heading" sx={{
 				textAlign: 'center'
 				}}>Zorotic</Heading>
-				<Heading id="heading2" as='h4' sx={{ textAlign: 'center', marginTop: 2}}>
-				{"<"} 19, Software Engineering & DevOps {"/>"}
-				</Heading>
+				<h4 id="heading2" as='h4' sx={{ textAlign: 'center', marginTop: 2}}>
+				{"<"} 19, Full-Stack Developer & System Administrator {"/>"}
+				</h4>
 				<Header/>
-				<Heading className="about" as='h4' sx={{ textAlign: 'center', marginTop: 10, color: 0xD91895 }}>
-				Co-Owner, Lead Developer, Maintainer.<br/>
-				Co-Owner of <a className="about-links" href="https://plexidev.org/" target="_blank">Plexi Development.</a><br/>
+				<h4 className="about" as='h4' sx={{ textAlign: 'center', marginTop: 10, color: 0xD91895 }}>
+				CTO, Lead Developer, Maintainer.<br/>
+				CTO at <a className="about-links" href="https://plexidev.org/" target="_blank">Plexi Development.</a><br/>
 				Lead Developer & Maintainer for <a className="about-links"href="https://captchabot.xyz/" target="_blank">Server Captcha Bot.</a>
-				</Heading>
+				</h4>
 				<Heading id="projects-heading" as='h3' sx={{
 					paddingTop: 50,
 					textAlign: 'center'

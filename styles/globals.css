@@ -80,20 +80,21 @@ a {
 #heading2 {
 	text-shadow: 0 0 2px;
 	color: #D91895;
-	font-family: grotesk;
+  font-family: grotesk;
+  text-align: center;
 }
 
 .about {
   color: #6E0C4B;
   line-height: 25px;
   font-family: grotesk;
-
+  text-align: center;
 }
 
 .additional {
   /* width: 100pc; */
   display: flex;
-  padding-top: 15px;
+  padding-top: 10px;
   position: relative;
   justify-content: center;
   align-items: center;
