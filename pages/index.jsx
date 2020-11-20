@@ -29,7 +29,7 @@ export default function Home() {
 				{"<"} Contact Me {"/>"}
 				</Heading>
 				<Container className="additional">
-					<Additional className="item" title="Email" description="zoro@captchabot.xyz"/>
+					<Additional className="item" title="Email" description="zorotic@captchabot.xyz" url="mailto:zorotic@captchabot.xyz"/>
 				</Container>
 				<Footer/>
 			</div>

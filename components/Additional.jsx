@@ -13,8 +13,7 @@ export default class Additional extends Component {
 					textTransform: 'uppercase',
 					letterSpacing: '0.1em',
 				}}>{this.props.title}</Text>
-				<Text className="project-description">{this.props.description}</Text>
-				<a className="project-url" href={this.props.url} target="_blank">{this.props.lore}</a>
+				<a className="project-description" href={this.props.url} target="_blank">{this.props.description}</a>
 			</Card>
 		)
 	}
