@@ -64,7 +64,7 @@ a {
 .about-links:hover,
 .about-links:focus,
 .about-links:active {
-  text-shadow: 0 0 4px;
+  text-shadow: 0 0 2.5px;
   color: #6227D9
 }
 
@@ -80,8 +80,8 @@ a {
 #heading2 {
 	text-shadow: 0 0 2px;
 	color: #D91895;
-  font-family: grotesk;
-  text-align: center;
+	font-family: grotesk;
+	text-align: center;
 }
 
 .about {
