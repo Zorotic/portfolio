@@ -61,19 +61,13 @@ a {
   color: #6227D9
 }
 
-.about-links:hover,
-.about-links:focus,
-.about-links:active {
-  text-shadow: 0 0 2.5px;
-  color: #6227D9
-}
 
 #heading {
-  margin-top: 60px;
-  margin-bottom: 23px;
-  text-shadow: 0 0 2px;
-  color: #D91895;
-  font-family: grotesk;
+	margin-top: 60px;
+	margin-bottom: 23px;
+	text-shadow: 0 0 2px;
+	color: #D91895;
+	font-family: grotesk;
 }
 
 
@@ -85,10 +79,22 @@ a {
 }
 
 .about {
-  color: #6E0C4B;
-  line-height: 25px;
-  font-family: grotesk;
-  text-align: center;
+	color: #6E0C4B;
+	line-height: 25px;
+	font-family: grotesk;
+	text-align: center;
+	font-size: 18px
+}
+
+.about-links {
+	text-shadow: 0 0 1.5px;
+}
+
+.about-links:hover,
+.about-links:focus,
+.about-links:active {
+  text-shadow: 0 0 2px;
+  color: #6227D9
 }
 
 .additional {
