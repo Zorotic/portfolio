@@ -19,7 +19,7 @@ const Particles = () => {
 				}
 				},
 				"color": {
-				"value": "#d91895"
+				"value": "#106078"
 				},
 				"shape": {
 				"type": "edge",
@@ -54,7 +54,7 @@ const Particles = () => {
 				"line_linked": {
 				"enable": true,
 				"distance": 120,
-				"color": "#a4046c",
+				"color": "#106078",
 				"opacity": 0.4,
 				"width": 1
 				},

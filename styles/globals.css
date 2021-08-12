@@ -22,7 +22,7 @@ a {
 }
 .footer {
   width: 100%;
-  border-top: 1px solid  hsla(321, 80%, 24%, .5);
+  border-top: 1px solid hsla(321, 80%, 24%, .5);
   margin-top: 60px;
   height: 80px;
   display: flex;
@@ -58,7 +58,7 @@ a {
 #header-content a:focus,
 #header-content a:active {
   text-shadow: 0 0 4px;
-  color: #6227D9
+  color: #106078
 }
 
 
@@ -87,14 +87,14 @@ a {
 }
 
 .about-links {
-	text-shadow: 0 0 1.5px;
+	text-shadow: 0 0 1px;
 }
 
 .about-links:hover,
 .about-links:focus,
 .about-links:active {
   text-shadow: 0 0 2px;
-  color: #6227D9
+  color: #106078
 }
 
 .additional {
