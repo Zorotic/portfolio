@@ -7,6 +7,8 @@ html,
 body {
   padding: 0;
   margin: 0;
+  width: 100%;
+  height: 100%;
   font-family: grotesk;
   background-color: #06000D;
 }
@@ -23,8 +25,8 @@ a {
 .footer {
   width: 100%;
   border-top: 1px solid hsla(321, 80%, 24%, .5);
-  margin-top: 60px;
   height: 80px;
+  /* bottom: auto; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -83,7 +85,7 @@ a {
 	line-height: 25px;
 	font-family: grotesk;
 	text-align: center;
-	font-size: 18px
+	font-size: 18px;
 }
 
 .about-links {
